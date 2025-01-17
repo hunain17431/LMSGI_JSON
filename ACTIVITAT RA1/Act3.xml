@@ -1,0 +1,53 @@
+<!-- Comencem amb la declaració del document de xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Etiqueta principal que conté tota la informació -->
+<biografia>
+
+  <!-- Inici de l'etiqueta informació bàsica -->
+  <basic_info>
+    <name>Peter</name> 
+    <surname>Jones</surname>
+    <age>19</age> 
+    <height>1.78</height>
+    <job>Informàtic</job> 
+    <favorite_simile>:3</favorite_simile> 
+    <pets>black cat</pets> 
+    <pets>chiwawa</pets>
+    <!-- Inici de l'etiqueta l'adreça -->
+    <adress>
+        <street>Pau Claris</street>
+        <number>121</number>
+        <cp>08012</cp>
+    </adress>
+    <!-- Fi de l'adreça -->
+  </basic_info>
+  <!-- Fi de la informació bàsica -->
+
+  <!-- Inici de l'etiqueta xarxa social -->
+  <social_media>
+    <instagram>
+        <user>pjones22</user>
+        <email>pjones22@gmail.com</email>
+    </instagram>
+    <twitter>true</twitter>
+  </social_media>
+  <!-- Fi de les xarxes socials -->
+
+  <!-- Inici de la llista d'amics -->
+  <friends>
+    <friend> <!-- primer amic -->
+        <name>Jhon</name>   
+        <surname>Doe</surname>
+        <age>35</age>
+    </friend>
+    <friend> <!-- segon amic -->
+        <name>Anna</name>
+        <surname>Smith</surname>
+        <age/>
+    </friend>
+  </friends>
+  <!-- Fi de la llista d'amics -->
+
+</biografia>
+<!-- Fi de l'etiquta biografia que conté tota l'informació -->

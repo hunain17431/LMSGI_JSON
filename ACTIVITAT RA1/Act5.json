@@ -1,0 +1,90 @@
+{
+    "pokemons": 
+    {
+        "llista_pokemon":
+        [
+            {
+                "id": "0115",
+                "nom": "Kangaskhan",
+                "tipus": ["normal"],
+                "pes": {
+                    "weight": 80.00,
+                    "unitat": "kg"
+                },
+                "altura": {
+                    "height": 2.2,
+                    "unitat": "m"
+                },
+                "estadistiques": {
+                    "velocitats": 4,
+                    "fortaleza": 5,
+                    "precisió": 4,
+                    "resistencia": 5,
+                    "salto": 2
+                },
+                "moviments": [
+                    {
+                        "nom": "Destructor",
+                        "descripció": "es un movimiento de tipo normal introducido en la primera generación.",
+                        "potència": 40,
+                        "contacte": "si"
+                    },
+                    {
+                        "nom": "Gruñido",
+                        "descripció": "es un movimiento de tipo normal introducido en la primera generación.",
+                        "potència": "-",
+                        "contacte": "No"
+                    }
+                ],
+                "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/3/39/latest/20210906101358/Kangaskhan.png",
+                "evolucions": []
+            },
+            {
+                "id": "0004",
+                "nom": "Charmander",
+                "tipus": ["fuego"],
+                "pes": {
+                    "weight": 8.5,
+                    "unitat": "kg"
+                },
+                "altura": {
+                    "height": 0.6,
+                    "unitat": "m"
+                },
+                "estadistiques": {
+                    "velocitats": 3,
+                    "fortaleza": 5,
+                    "precisió": 4,
+                    "resistencia": 3,
+                    "salto": 3
+                },
+                "moviments": [
+                    {
+                        "nom": "Arañazo",
+                        "descripció": "es un movimiento de tipo normal introducido en la primera generación.",
+                        "potència": 40,
+                        "contacte": "Si"
+                    },
+                    {
+                        "nom": "Dragoaliento",
+                        "descripció": "es un movimiento de tipo normal introducido en la segunda generación.",
+                        "potència": 60,
+                        "contacte": "No"
+                    }
+                ],
+                "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/5/56/latest/20200307023245/Charmander.png",
+                "evolucions": 
+                [
+                        {
+                            "id": "0005",
+                            "nivell": 16
+                        },
+                        {
+                            "id": "0006",
+                            "nivell": 36
+                        }
+                ]
+            }
+        ]
+    }
+}

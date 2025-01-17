@@ -1,0 +1,64 @@
+<!-- Comencem amb la declaració del document de xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Etiqueta que representa els productes d'una botiga online -->
+<botigaonline>
+
+  <!-- Etiqueta d'inici del primer producte, amb atribut de tipus del preu-->
+  <producte tipus="econòmic">
+    <!-- Codi únic del producte, amb atribut que indica el format del codi-->
+    <codi format="numèric">42182634</codi>
+    <!-- Nom del producte -->
+    <nom>Redbull</nom>
+    <!-- Descripció del producte -->
+    <descripció>Beguda energética</descripció>
+    <!-- Preu del producte, amb atribut que indica la moneda utilitzada -->
+    <preu moneda="EUR">1.50</preu>
+    <!-- Categoria del producte -->
+    <categoria>begudes</categoria>
+    <!-- Disponibilitat del producte, amb atribut que indica la quantitat disponible -->
+    <disponibilitat unitats="253">en estoc</disponibilitat>
+    <!-- URL de la imatge del producte -->
+    <imatge>URL, https://disceas.es/336-large_default/red-bull-enerdrlata-25cl.jpg</imatge>
+  </producte>
+  <!-- Fi del primer producte -->
+
+  <!-- Etiqueta d'inici del segon producte, amb atribut de tipus del preu -->
+  <producte tipus="econòmic">
+    <!-- Codi únic del producte, amb atribut que indica el format del codi-->
+    <codi format="numèric">84567231</codi>
+    <!-- Nom del producte -->
+    <nom>Ribes</nom>
+    <!-- Descripció del producte -->
+    <descripció>Aigua mineral</descripció>
+    <!-- Preu del producte, amb atribut que indica la moneda utilitzada -->
+    <preu moneda="EUR">1.00</preu>
+    <!-- Categoria del producte -->
+    <categoria>begudes</categoria>
+    <!-- Disponibilitat del producte, amb atribut que indica la quantitat disponible -->
+    <disponibilitat unitats="200">en estoc</disponibilitat>
+    <!-- URL de la imatge del producte -->
+    <imatge>URL, https://www.aiguaderibes.com/wp-content/uploads/2019/03/ribes-contacto.png</imatge>
+  </producte>
+  <!-- Fi del segon producte -->
+
+  <!-- Etiqueta d'inici del tercer producte, amb atribut de tipus del preu -->
+  <producte tipus="econòmic">
+    <!-- Codi únic del producte, amb atribut que indica el format del codi -->
+    <codi format="numèric">79018637</codi>
+    <!-- Nom del producte -->
+    <nom>OREO</nom>
+    <!-- Descripció del producte -->
+    <descripció>Galletes amb nata</descripció>
+    <!-- Preu del producte, amb atribut que indica la moneda utilitzada -->
+    <preu moneda="EUR">1.20</preu>
+    <!-- Categoria del producte -->
+    <categoria>snacks</categoria>
+    <!-- Disponibilitat del producte, amb atribut que indica la quantitat disponible -->
+    <disponibilitat unitats="0">esgotat</disponibilitat>
+    <!-- URL de la imatge del producte -->
+    <imatge>URL, https://m.media-amazon.com/images/I/71s1K2GHJ6L._AC_SX679_.jpg</imatge>
+  </producte>
+  <!-- Fi del tercer producte -->
+</botigaonline>
+<!-- Fi del document XML i de l'etiqueta que representa els productes de la botiga online -->
